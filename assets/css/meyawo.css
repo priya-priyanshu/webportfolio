@@ -44,6 +44,7 @@ html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  
 }
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
@@ -548,7 +549,7 @@ pre code {
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
-  margin-left: 10rem ;
+  margin-left: 9.5rem ;
 }
 
 @media (min-width: 576px) {
@@ -12186,6 +12187,9 @@ pre .code {
 
 
 @media (max-width: 767.98px) {
+  html{
+    overflow-x: hidden;
+  }
   .about {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -12210,6 +12214,9 @@ pre .code {
   }
   .name{
     display: none;
+  }
+  .container{
+    margin-left: auto;
   }
 }
 
